@@ -164,6 +164,21 @@
           text-align: center;
           margin-bottom: 8px;
         }
+
+        .portadas-dobles {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          gap: 16px;
+          margin: 24px 0;
+        }
+        
+        .portadas-dobles img {
+          width: calc(50% - 8px);
+          max-width: 100%;
+          height: auto;
+          border-radius: 4px;
+        }
     </style>
 </head>
 
@@ -200,6 +215,12 @@
             <p>
                 A lo largo del proceso, fui intentando conectar las distintas perspectivas que fuimos trabajando, sabiendo que cada una parte de preguntas, marcos y contextos distintos. No busqué cerrar el tema ni sacar conclusiones rápidas, sino reunir esos aportes para seguir pensándolo desde un lugar más situado y atento a su complejidad.
             </p>
+
+            <div class="portadas-dobles">
+                <img src="De familia en familia.webp" alt="Portada de 'De familia en familia'">
+                <img src="Mi familia es de otro mundo.png" alt="Portada de 'Mi familia es de otro mundo'">
+            </div>
+
         </section>
     
         <div class="titulo activo" onclick="toggleVideo('video1', this)">
