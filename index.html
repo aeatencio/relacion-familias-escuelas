@@ -161,267 +161,272 @@
             font-size: 0.9rem;
             color: #777;
         }
+
+        .contenedor {
+          max-width: 960px;
+          margin: 0 auto;
+          padding: 0 16px;
+        }
     </style>
 </head>
 
 <body>
-    <div class="encabezado">
-        <h1>Relación entre familias (en plural) y escuelas (también en plural)</h1>
-        <div class="subtitulo">Final de Instituciones Educativas</div>
-        <div class="subtitulo">10/07/2025</div>
-        <div class="info">Estudiante: Andrés Atencio</div>
-        <div class="info">Profesora: Luciana Sánchez</div>
+    <div class="contenedor">
+        <div class="encabezado">
+            <h1>Relación entre familias (en plural) y escuelas (también en plural)</h1>
+            <div class="subtitulo">Final de Instituciones Educativas</div>
+            <div class="subtitulo">10/07/2025</div>
+            <div class="info">Estudiante: Andrés Atencio</div>
+            <div class="info">Profesora: Luciana Sánchez</div>
+        </div>
+    
+        <blockquote class="cita-derecha">
+            <p><em>“La relación entre familias y escuelas se juega día a día, en las circunstancias
+                    concretas de cada encuentro. Es allí donde se genera un
+                    vínculo renovado y avanzamos hacia una sociedad más justa, pluralista
+                    y solidaria o se quiebra el diálogo y dejamos que triunfen las tendencias
+                    de segregación y exclusión, en una sociedad tironeada entre un
+                    pasado de homogeneización cultural y una invitación del mercado a
+                    reducir las condiciones de ciudadanía a relaciones clientelares.”</em></p>
+            <footer>— Isabelino Siede, <cite>Entre familias y escuelas</cite></footer>
+        </blockquote>
+    
+        <section class="bloque-fijo">
+            <h2>📄 Introducción</h2>
+    
+            <p>
+                En la preparación de esta presentación final empecé siguiendo el recorrido que Luciana nos propuso durante
+                la cursada.
+            </p>
+            <p>Empecé por el texto de Santillán y
+                Cerletti, que propone mirar el vínculo entre escuela y familia sin idealizarlo, entendiendo que está
+                atravesado por tensiones, diferencias culturales y cambios históricos.
+            </p>
+            <p>
+                Después vi una entrevista a Laura Cerletti, que retoma esas
+                ideas desde su investigación, y muestra con claridad cómo muchas veces escuela y familias entienden de forma
+                muy
+                distinta lo que significa “participar" de la escolaridad.
+            </p>
+            <p>
+                También trabajamos la conferencia "Escuela y familia: ¿una alianza bajo sospecha?", con Isabelino Siede y
+                Laura Santillán. Esa charla me ayudó a conectar lo que veníamos leyendo con situaciones reales que
+                atraviesan muchas escuelas.
+            </p>
+    
+            <p>
+                Finalmente, llegué a la conferencia "Entre familias y escuelas, de Isabelino Siede", que en la que más me
+                enfoqué
+                para tratar de ordenar y profundizar todo lo trabajado. En esa conferencia, Siede
+                retoma los capítulos 1 y 3 de su libro y ofrece una mirada clara y reflexiva sobre cómo se construyó
+                históricamente este vínculo y qué desafíos presenta hoy.
+            </p>
+            <p>
+                Por eso decidí tomar como base de mi exposición esa última conferencia junto con los dos capítulos del
+                libro. A partir de ahí, armé esta presentación donde también comparto otros materiales que me
+                acompañaron en
+                el recorrido.
+            </p>
+        </section>
+    
+        <div class="titulo activo" onclick="toggleVideo('video1', this)">
+            🎬 Conferencia de Isabelino Siede – «Entre familias y escuelas»
+            <span class="flecha">▶</span>
+        </div>
+        <div id="video1" class="video-container activo">
+            <strong>Mayo de 2017</strong><br>
+            <p class="descripcion">
+                Esta conferencia fue dictada por Isabelino Siede como parte de un ciclo de formación docente impulsado por
+                el
+                Ministerio de Educación, en un contexto de fuerte preocupación por los vínculos escolares en tiempos de
+                cambio. Retoma ideas desarrolladas en su libro <em>Entre familias y escuelas: Alternativas de una relación
+                    compleja</em> (2017), publicado por la editorial Miño y Dávila, que reúne reflexiones construidas a
+                partir de años de investigación, formación y trabajo en instituciones educativas.
+            </p>
+            <p class="descripcion">
+                Tanto en el libro como en la charla, Siede propone dejar de pensar la relación entre escuela y familia como
+                algo natural o dado. En el capítulo 1 hace un recorrido histórico que muestra cómo ese vínculo fue cambiando
+                con el tiempo, atravesado por distintas formas de autoridad, modelos familiares diversos y tensiones entre
+                las expectativas mutuas. En el capítulo 3, ofrece cinco dimensiones clave para pensar y trabajar esa
+                relación: confianza, autoridad, legitimidad, comunicación y cooperación.
+            </p>
+            <p class="descripcion">
+                La charla busca compartir estas ideas con docentes en ejercicio, sin ofrecer soluciones cerradas, pero sí
+                abriendo
+                preguntas. Desde una mirada crítica y respetuosa, Siede invita a reconocer que los conflictos no son fallas
+                a evitar, sino parte inevitable de un vínculo que se construye día a día, con escucha, paciencia y
+                compromiso.
+            </p>
+            <iframe src="https://www.youtube.com/embed/jo_g9Bl1X2E" allowfullscreen title="Parte 1"></iframe>
+            <iframe src="https://www.youtube.com/embed/v7h9VVSe_s0" allowfullscreen title="Parte 2"></iframe>
+        </div>
+    
+        <div class="titulo" onclick="toggleVideo('video2', this)">
+            🎬 Entrevista a Laura Cerletti – «Familias y Escuelas»
+            <span class="flecha">▶</span>
+        </div>
+        <div id="video2" class="video-container">
+            <iframe src="https://www.youtube.com/embed/Km0hGaJj19E" allowfullscreen></iframe>
+    
+            <strong>Noviembre de 2019</strong><br>
+            <p class="descripcion">En esta entrevista de 2019, Laura Cerletti analiza cómo ha cambiado el vínculo entre las
+                familias y las escuelas, desde los orígenes del sistema educativo hasta hoy. Explica que, en los comienzos,
+                el rol de las familias era simplemente asegurar la asistencia de les alumnes, y que la escuela asumía la
+                mayor parte de la responsabilidad educativa. Con el paso del tiempo, especialmente desde mediados del siglo
+                XX, se fueron sumando nuevas expectativas hacia las familias, sin que quedaran del todo claras ni
+                discutidas.</p>
+    
+            <p class="descripcion">Uno de los conceptos que analiza es el de “participación”, al que define como una
+                categoría polisémica: es decir, tiene muchos significados, a veces incluso contradictorios. Para algunas
+                personas participar es asistir a reuniones, para otras es ayudar con la tarea, y para otras es opinar sobre
+                lo que se enseña. Esta variedad de sentidos puede generar malos entendidos y tensiones, tanto desde el lado
+                docente como del lado familiar.</p>
+    
+            <p class="descripcion">Cerletti también llama la atención sobre un riesgo que aparece con frecuencia: pensar que
+                si una familia no participa, la escuela no puede hacer su parte. Ese tipo de argumento, dice, no solo es
+                injusto, sino que no se sostiene ni desde la historia ni desde la práctica actual. Hay familias muy
+                presentes cuyos hijos tienen dificultades, y otras más distantes con hijos que se desempeñan bien. Insistir
+                en esa mirada puede llevar a culpabilizar a las familias y a dejar de pensar en el trabajo pedagógico como
+                una responsabilidad compartida pero que no depende de condiciones ideales.</p>
+    
+            <p class="descripcion">Por eso, propone desarmar ciertas ideas instaladas, revisar las fórmulas cerradas y
+                para vínculos más realistas y respetuosos entre escuelas y familias, reconociendo las
+                diferencias y evitando imponer o prescribir formas únicas de acompañamiento.</p>
+    
+        </div>
+    
+        <div class="titulo" onclick="toggleVideo('video3', this)">
+            🎬 Conferencia de Santillán y Siede – «Escuela y Familia: ¿una alianza bajo sospecha?»
+            <span class="flecha">▶</span>
+        </div>
+        <div id="video3" class="video-container">
+            <iframe src="https://www.youtube.com/embed/2WyASJmXVTQ" allowfullscreen></iframe>
+            <strong>Feria del Libro 2017 – 26.° Jornadas Internacionales de Educación.</strong><br>
+            <p class="descripcion">
+                La conferencia “Escuela y familia: ¿una alianza bajo sospecha?”, presentada por Laura Santillán e Isabelino
+                Siede en las 26.° Jornadas Internacionales de Educación (Feria del Libro, 2017), invita a revisar
+                críticamente cómo entendemos el vínculo entre las escuelas y las familias, sin caer en culpabilizaciones ni
+                nostalgias.
+            </p>
+    
+            <p class="descripcion">
+                Laura Santillán se detiene especialmente en la idea de “familia” como una construcción social. Cuestiona el
+                modelo de familia nuclear como único o natural, y subraya la importancia de reconocer la diversidad de
+                formas familiares existentes hoy. Advierte además sobre el riesgo de pensar que el origen familiar determina
+                completamente el destino escolar de los estudiantes, y señala cómo ciertos discursos tienden a reforzar esas
+                miradas deterministas, incluso desde algunos sectores de la neurociencia o la pedagogía.
+            </p>
+    
+            <p class="descripcion">
+                Isabelino Siede, por su parte, plantea que nunca hubo una alianza idílica entre familias y escuelas, y que
+                la escuela no nació para educar junto a las familias, sino muchas veces en tensión con ellas. Retoma escenas
+                reales para pensar cinco tensiones actuales: confianza, autoridad, legitimidad, comunicación y cooperación.
+                En lugar de buscar resolverlas, propone reconocerlas como parte inevitable de ese vínculo, y verlas como
+                oportunidades para construir algo mejor.
+            </p>
+    
+            <p class="descripcion">
+                Entre ambos expositores, se va desarmando la idea de que las familias deben ajustarse a un modelo ideal o
+                que la escuela solo puede enseñar si las familias acompañan del modo esperado. Lo que proponen, en cambio,
+                es revisar desde dónde hablamos cuando hablamos de “familia”, y qué papel real queremos darle a ese vínculo
+                en el trabajo cotidiano de la escuela.
+            </p>
+        </div>
+    
+        <div class="titulo" onclick="toggleVideo('video4', this)">
+            🎬 Caminos de tiza – «Familias de ayer y de hoy»
+            <span class="flecha">▶</span>
+        </div>
+        <div id="video4" class="video-container">
+            <iframe src="https://www.youtube.com/embed/e7ZDp2HUNKE" allowfullscreen></iframe>
+            <strong>Televisión Pública – Septiembre de 2016</strong><br>
+            <p class="descripcion">
+                Este programa de Caminos de Tiza invita a pensar cómo fueron cambiando las familias con el paso del tiempo,
+                y qué lugar ocupa la escuela frente a esos cambios. Aparecen muchas preguntas que siguen vigentes: ¿cómo
+                acompañar desde la escuela a realidades familiares tan distintas? ¿Cómo evitar imponer un solo modelo como
+                si fuera el correcto?
+            </p>
+            <p class="descripcion">
+                A lo largo del programa se cruzan voces muy diversas: especialistas en psicología, didáctica y antropología,
+                autorxs de literatura infantil y madres que brindan su testimonio. Hay
+                espacio para reconocer que la escuela muchas veces llega tarde a los cambios sociales, pero también que
+                puede hacer mucho si se anima a mirar con otros ojos.
+            </p>
+            <p class="descripcion">
+                Sin dar recetas, el programa ayuda a salir de la idea de que hay una sola forma de ser familia. Muestra
+                historias diferentes, con sus desafíos y sus maneras de salir adelante. Y deja una idea fuerte: que la
+                escuela no está para juzgar, sino para acompañar, escuchar y abrir la mirada.
+            </p>
+        </div>
+    
+        <section class="bloque-fijo">
+            <h2>📖 Textos trabajados</h2>
+            <p>Al igual que ocurre con los videos, estos materiales formaron parte del proceso de preparación de mi
+                exposición. Los utilicé para revisar
+                enfoques, contrastar ideas y pensar con mayor profunidad y precisión el tema de mi presentación.</p>
+    
+            <ul>
+                <li>
+                    <strong>Siede, I. (2017).</strong> <em>Entre familias y escuelas: Alternativas de una relación
+                        compleja</em>. Buenos Aires: Miño y Dávila.
+                    <br><a href="Isabelino Siede - Entre escuelas y familias.pdf" download target="_blank">📥 Descargar
+                        PDF</a>
+                    <p class="descripcion">Lo que más me interesó de este libro es que la exposición que elegí como base
+                        para esta presentación se apoya, justamente, en los capítulos 1 («Familias y escuelas: una alianza
+                        bajo sospecha») y 3 («Familias, escuelas y senderos abiertos al futuro»). Eso me ayudó a releerlos
+                        con más claridad y a encontrar un eje para ordenar todo lo trabajado. En esos capítulos,
+                        Siede reconstruye el vínculo entre familias y escuelas desde una mirada histórica y crítica, y
+                        propone cinco dimensiones —confianza, autoridad, legitimidad, comunicación y cooperación— como
+                        claves para comprender y actuar sobre las tensiones actuales,
+                        apostando a la construcción colectiva de soluciones.</p>
+                </li>
+    
+                <li>
+                    <strong>Santillán, L. y Cerletti, L. (2011).</strong> <em>Familias y escuelas: repensando la relación
+                        desde el campo de la Antropología y la Educación</em>.
+                    <em>Boletín de Antropología y Educación</em>, nº 3, pp. 7–16.
+                    <br><a href="familias-y-escuelas_santillan-y-cerletti.pdf" download target="_blank">📥 Descargar PDF</a>
+                    <p class="descripcion">
+                        Este artículo, propuesto por la cátedra, analiza la relación escuela-familia desde una perspectiva
+                        antropológica, basada en investigaciones etnográficas. Las autoras cuestionan la idea de una familia
+                        “natural” o ideal, y muestran cómo la escuela reconoce ciertas configuraciones familiares mientras
+                        invisibiliza
+                        otras. Invitan a pensar esta relación como una construcción social situada, atravesada por
+                        desigualdades,
+                        tensiones y disputas en torno a las responsabilidades educativas.
+                    </p>
+                </li>
+    
+                <li>
+                    <strong>Cerletti, L. (2010).</strong> <em>Familias y escuelas: aportes de una investigación
+                        etnográfica a la problematización de supuestos en torno a las condiciones de escolarización infantil
+                        y la categoría “familia”</em>. Intersecciones en Antropología, 11(1), 185–198. Universidad Nacional
+                    del Centro de la Provincia de Buenos Aires.
+                    <br><a href="Familias y escuelas - Cerletti.pdf" download target="_blank">📥 Descargar PDF</a>
+                    <p class="descripcion">Desde un trabajo etnográfico en escuelas públicas, este artículo analiza cómo se
+                        construyen y sostienen ciertos sentidos sobre “la familia” en la vida escolar. Muestra cómo esos
+                        sentidos a veces entran en tensión con las realidades concretas de muchas infancias.</p>
+                </li>
+    
+                <li>
+                    <strong>Santillán, L., con la colaboración de Neufeld, M. R. y Cerletti, L. (2006).</strong>
+                    <em>Las familias en las escuelas</em>. Coordinación autoral: Southwell, M. Ministerio de Educación,
+                    Ciencia y Tecnología de la Nación.
+                    <br><a href="Las familias en las escuelas - Santillan.pdf" download target="_blank">📥 Descargar PDF</a>
+                    <p class="descripcion">
+                        Este material, dirigido a docentes, ofrece escenas escolares y preguntas disparadoras para pensar el
+                        vínculo entre escuelas y familias
+                        desde una mirada cercana y situada. Me interesó especialmente porque reúne aportes de distintos
+                        textos —incluyendo algunos ya trabajados—
+                        y articula perspectivas de Siede, Santillán y Cerletti, permitiendo abordar el tema de manera
+                        accesible, sin perder profundidad.
+                    </p>
+                </li>
+
+            </ul>
+            
+        </section>
     </div>
-
-    <blockquote class="cita-derecha">
-        <p><em>“La relación entre familias y escuelas se juega día a día, en las circunstancias
-                concretas de cada encuentro. Es allí donde se genera un
-                vínculo renovado y avanzamos hacia una sociedad más justa, pluralista
-                y solidaria o se quiebra el diálogo y dejamos que triunfen las tendencias
-                de segregación y exclusión, en una sociedad tironeada entre un
-                pasado de homogeneización cultural y una invitación del mercado a
-                reducir las condiciones de ciudadanía a relaciones clientelares.”</em></p>
-        <footer>— Isabelino Siede, <cite>Entre familias y escuelas</cite></footer>
-    </blockquote>
-
-    <section class="bloque-fijo">
-        <h2>📄 Introducción</h2>
-
-        <p>
-            En la preparación de esta presentación final empecé siguiendo el recorrido que Luciana nos propuso durante
-            la cursada.
-        </p>
-        <p>Empecé por el texto de Santillán y
-            Cerletti, que propone mirar el vínculo entre escuela y familia sin idealizarlo, entendiendo que está
-            atravesado por tensiones, diferencias culturales y cambios históricos.
-        </p>
-        <p>
-            Después vi una entrevista a Laura Cerletti, que retoma esas
-            ideas desde su investigación, y muestra con claridad cómo muchas veces escuela y familias entienden de forma
-            muy
-            distinta lo que significa “participar" de la escolaridad.
-        </p>
-        <p>
-            También trabajamos la conferencia "Escuela y familia: ¿una alianza bajo sospecha?", con Isabelino Siede y
-            Laura Santillán. Esa charla me ayudó a conectar lo que veníamos leyendo con situaciones reales que
-            atraviesan muchas escuelas.
-        </p>
-
-        <p>
-            Finalmente, llegué a la conferencia "Entre familias y escuelas, de Isabelino Siede", que en la que más me
-            enfoqué
-            para tratar de ordenar y profundizar todo lo trabajado. En esa conferencia, Siede
-            retoma los capítulos 1 y 3 de su libro y ofrece una mirada clara y reflexiva sobre cómo se construyó
-            históricamente este vínculo y qué desafíos presenta hoy.
-        </p>
-        <p>
-            Por eso decidí tomar como base de mi exposición esa última conferencia junto con los dos capítulos del
-            libro. A partir de ahí, armé esta presentación donde también comparto otros materiales que me
-            acompañaron en
-            el recorrido.
-        </p>
-    </section>
-
-    <div class="titulo activo" onclick="toggleVideo('video1', this)">
-        🎬 Conferencia de Isabelino Siede – «Entre familias y escuelas»
-        <span class="flecha">▶</span>
-    </div>
-    <div id="video1" class="video-container activo">
-        <strong>Mayo de 2017</strong><br>
-        <p class="descripcion">
-            Esta conferencia fue dictada por Isabelino Siede como parte de un ciclo de formación docente impulsado por
-            el
-            Ministerio de Educación, en un contexto de fuerte preocupación por los vínculos escolares en tiempos de
-            cambio. Retoma ideas desarrolladas en su libro <em>Entre familias y escuelas: Alternativas de una relación
-                compleja</em> (2017), publicado por la editorial Miño y Dávila, que reúne reflexiones construidas a
-            partir de años de investigación, formación y trabajo en instituciones educativas.
-        </p>
-        <p class="descripcion">
-            Tanto en el libro como en la charla, Siede propone dejar de pensar la relación entre escuela y familia como
-            algo natural o dado. En el capítulo 1 hace un recorrido histórico que muestra cómo ese vínculo fue cambiando
-            con el tiempo, atravesado por distintas formas de autoridad, modelos familiares diversos y tensiones entre
-            las expectativas mutuas. En el capítulo 3, ofrece cinco dimensiones clave para pensar y trabajar esa
-            relación: confianza, autoridad, legitimidad, comunicación y cooperación.
-        </p>
-        <p class="descripcion">
-            La charla busca compartir estas ideas con docentes en ejercicio, sin ofrecer soluciones cerradas, pero sí
-            abriendo
-            preguntas. Desde una mirada crítica y respetuosa, Siede invita a reconocer que los conflictos no son fallas
-            a evitar, sino parte inevitable de un vínculo que se construye día a día, con escucha, paciencia y
-            compromiso.
-        </p>
-        <iframe src="https://www.youtube.com/embed/jo_g9Bl1X2E" allowfullscreen title="Parte 1"></iframe>
-        <iframe src="https://www.youtube.com/embed/v7h9VVSe_s0" allowfullscreen title="Parte 2"></iframe>
-    </div>
-
-    <div class="titulo" onclick="toggleVideo('video2', this)">
-        🎬 Entrevista a Laura Cerletti – «Familias y Escuelas»
-        <span class="flecha">▶</span>
-    </div>
-    <div id="video2" class="video-container">
-        <iframe src="https://www.youtube.com/embed/Km0hGaJj19E" allowfullscreen></iframe>
-
-        <strong>Noviembre de 2019</strong><br>
-        <p class="descripcion">En esta entrevista de 2019, Laura Cerletti analiza cómo ha cambiado el vínculo entre las
-            familias y las escuelas, desde los orígenes del sistema educativo hasta hoy. Explica que, en los comienzos,
-            el rol de las familias era simplemente asegurar la asistencia de les alumnes, y que la escuela asumía la
-            mayor parte de la responsabilidad educativa. Con el paso del tiempo, especialmente desde mediados del siglo
-            XX, se fueron sumando nuevas expectativas hacia las familias, sin que quedaran del todo claras ni
-            discutidas.</p>
-
-        <p class="descripcion">Uno de los conceptos que analiza es el de “participación”, al que define como una
-            categoría polisémica: es decir, tiene muchos significados, a veces incluso contradictorios. Para algunas
-            personas participar es asistir a reuniones, para otras es ayudar con la tarea, y para otras es opinar sobre
-            lo que se enseña. Esta variedad de sentidos puede generar malos entendidos y tensiones, tanto desde el lado
-            docente como del lado familiar.</p>
-
-        <p class="descripcion">Cerletti también llama la atención sobre un riesgo que aparece con frecuencia: pensar que
-            si una familia no participa, la escuela no puede hacer su parte. Ese tipo de argumento, dice, no solo es
-            injusto, sino que no se sostiene ni desde la historia ni desde la práctica actual. Hay familias muy
-            presentes cuyos hijos tienen dificultades, y otras más distantes con hijos que se desempeñan bien. Insistir
-            en esa mirada puede llevar a culpabilizar a las familias y a dejar de pensar en el trabajo pedagógico como
-            una responsabilidad compartida pero que no depende de condiciones ideales.</p>
-
-        <p class="descripcion">Por eso, propone desarmar ciertas ideas instaladas, revisar las fórmulas cerradas y
-            para vínculos más realistas y respetuosos entre escuelas y familias, reconociendo las
-            diferencias y evitando imponer o prescribir formas únicas de acompañamiento.</p>
-
-    </div>
-
-    <div class="titulo" onclick="toggleVideo('video3', this)">
-        🎬 Conferencia de Santillán y Siede – «Escuela y Familia: ¿una alianza bajo sospecha?»
-        <span class="flecha">▶</span>
-    </div>
-    <div id="video3" class="video-container">
-        <iframe src="https://www.youtube.com/embed/2WyASJmXVTQ" allowfullscreen></iframe>
-        <strong>Feria del Libro 2017 – 26.° Jornadas Internacionales de Educación.</strong><br>
-        <p class="descripcion">
-            La conferencia “Escuela y familia: ¿una alianza bajo sospecha?”, presentada por Laura Santillán e Isabelino
-            Siede en las 26.° Jornadas Internacionales de Educación (Feria del Libro, 2017), invita a revisar
-            críticamente cómo entendemos el vínculo entre las escuelas y las familias, sin caer en culpabilizaciones ni
-            nostalgias.
-        </p>
-
-        <p class="descripcion">
-            Laura Santillán se detiene especialmente en la idea de “familia” como una construcción social. Cuestiona el
-            modelo de familia nuclear como único o natural, y subraya la importancia de reconocer la diversidad de
-            formas familiares existentes hoy. Advierte además sobre el riesgo de pensar que el origen familiar determina
-            completamente el destino escolar de los estudiantes, y señala cómo ciertos discursos tienden a reforzar esas
-            miradas deterministas, incluso desde algunos sectores de la neurociencia o la pedagogía.
-        </p>
-
-        <p class="descripcion">
-            Isabelino Siede, por su parte, plantea que nunca hubo una alianza idílica entre familias y escuelas, y que
-            la escuela no nació para educar junto a las familias, sino muchas veces en tensión con ellas. Retoma escenas
-            reales para pensar cinco tensiones actuales: confianza, autoridad, legitimidad, comunicación y cooperación.
-            En lugar de buscar resolverlas, propone reconocerlas como parte inevitable de ese vínculo, y verlas como
-            oportunidades para construir algo mejor.
-        </p>
-
-        <p class="descripcion">
-            Entre ambos expositores, se va desarmando la idea de que las familias deben ajustarse a un modelo ideal o
-            que la escuela solo puede enseñar si las familias acompañan del modo esperado. Lo que proponen, en cambio,
-            es revisar desde dónde hablamos cuando hablamos de “familia”, y qué papel real queremos darle a ese vínculo
-            en el trabajo cotidiano de la escuela.
-        </p>
-    </div>
-
-    <div class="titulo" onclick="toggleVideo('video4', this)">
-        🎬 Caminos de tiza – «Familias de ayer y de hoy»
-        <span class="flecha">▶</span>
-    </div>
-    <div id="video4" class="video-container">
-        <iframe src="https://www.youtube.com/embed/e7ZDp2HUNKE" allowfullscreen></iframe>
-        <strong>Televisión Pública – Septiembre de 2016</strong><br>
-        <p class="descripcion">
-            Este programa de Caminos de Tiza invita a pensar cómo fueron cambiando las familias con el paso del tiempo,
-            y qué lugar ocupa la escuela frente a esos cambios. Aparecen muchas preguntas que siguen vigentes: ¿cómo
-            acompañar desde la escuela a realidades familiares tan distintas? ¿Cómo evitar imponer un solo modelo como
-            si fuera el correcto?
-        </p>
-        <p class="descripcion">
-            A lo largo del programa se cruzan voces muy diversas: especialistas en psicología, didáctica y antropología,
-            autorxs de literatura infantil y madres que brindan su testimonio. Hay
-            espacio para reconocer que la escuela muchas veces llega tarde a los cambios sociales, pero también que
-            puede hacer mucho si se anima a mirar con otros ojos.
-        </p>
-        <p class="descripcion">
-            Sin dar recetas, el programa ayuda a salir de la idea de que hay una sola forma de ser familia. Muestra
-            historias diferentes, con sus desafíos y sus maneras de salir adelante. Y deja una idea fuerte: que la
-            escuela no está para juzgar, sino para acompañar, escuchar y abrir la mirada.
-        </p>
-    </div>
-
-    <section class="bloque-fijo">
-        <h2>📖 Textos trabajados</h2>
-        <p>Al igual que ocurre con los videos, estos materiales formaron parte del proceso de preparación de mi
-            exposición. Los utilicé para revisar
-            enfoques, contrastar ideas y pensar con mayor profunidad y precisión el tema de mi presentación.</p>
-
-        <ul>
-            <li>
-                <strong>Siede, I. (2017).</strong> <em>Entre familias y escuelas: Alternativas de una relación
-                    compleja</em>. Buenos Aires: Miño y Dávila.
-                <br><a href="Isabelino Siede - Entre escuelas y familias.pdf" download target="_blank">📥 Descargar
-                    PDF</a>
-                <p class="descripcion">Lo que más me interesó de este libro es que la exposición que elegí como base
-                    para esta presentación se apoya, justamente, en los capítulos 1 («Familias y escuelas: una alianza
-                    bajo sospecha») y 3 («Familias, escuelas y senderos abiertos al futuro»). Eso me ayudó a releerlos
-                    con más claridad y a encontrar un eje para ordenar todo lo trabajado. En esos capítulos,
-                    Siede reconstruye el vínculo entre familias y escuelas desde una mirada histórica y crítica, y
-                    propone cinco dimensiones —confianza, autoridad, legitimidad, comunicación y cooperación— como
-                    claves para comprender y actuar sobre las tensiones actuales,
-                    apostando a la construcción colectiva de soluciones.</p>
-            </li>
-
-            <li>
-                <strong>Santillán, L. y Cerletti, L. (2011).</strong> <em>Familias y escuelas: repensando la relación
-                    desde el campo de la Antropología y la Educación</em>.
-                <em>Boletín de Antropología y Educación</em>, nº 3, pp. 7–16.
-                <br><a href="familias-y-escuelas_santillan-y-cerletti.pdf" download target="_blank">📥 Descargar PDF</a>
-                <p class="descripcion">
-                    Este artículo, propuesto por la cátedra, analiza la relación escuela-familia desde una perspectiva
-                    antropológica, basada en investigaciones etnográficas. Las autoras cuestionan la idea de una familia
-                    “natural” o ideal, y muestran cómo la escuela reconoce ciertas configuraciones familiares mientras
-                    invisibiliza
-                    otras. Invitan a pensar esta relación como una construcción social situada, atravesada por
-                    desigualdades,
-                    tensiones y disputas en torno a las responsabilidades educativas.
-                </p>
-            </li>
-
-            <li>
-                <strong>Cerletti, L. (2010).</strong> <em>Familias y escuelas: aportes de una investigación
-                    etnográfica a la problematización de supuestos en torno a las condiciones de escolarización infantil
-                    y la categoría “familia”</em>. Intersecciones en Antropología, 11(1), 185–198. Universidad Nacional
-                del Centro de la Provincia de Buenos Aires.
-                <br><a href="Familias y escuelas - Cerletti.pdf" download target="_blank">📥 Descargar PDF</a>
-                <p class="descripcion">Desde un trabajo etnográfico en escuelas públicas, este artículo analiza cómo se
-                    construyen y sostienen ciertos sentidos sobre “la familia” en la vida escolar. Muestra cómo esos
-                    sentidos a veces entran en tensión con las realidades concretas de muchas infancias.</p>
-            </li>
-
-            <li>
-                <strong>Santillán, L., con la colaboración de Neufeld, M. R. y Cerletti, L. (2006).</strong>
-                <em>Las familias en las escuelas</em>. Coordinación autoral: Southwell, M. Ministerio de Educación,
-                Ciencia y Tecnología de la Nación.
-                <br><a href="Las familias en las escuelas - Santillan.pdf" download target="_blank">📥 Descargar PDF</a>
-                <p class="descripcion">
-                    Este material, dirigido a docentes, ofrece escenas escolares y preguntas disparadoras para pensar el
-                    vínculo entre escuelas y familias
-                    desde una mirada cercana y situada. Me interesó especialmente porque reúne aportes de distintos
-                    textos —incluyendo algunos ya trabajados—
-                    y articula perspectivas de Siede, Santillán y Cerletti, permitiendo abordar el tema de manera
-                    accesible, sin perder profundidad.
-                </p>
-            </li>
-
-
-        </ul>
-
-
-    </section>
-
 
     <script>
         function toggleVideo(id, tituloEl) {
