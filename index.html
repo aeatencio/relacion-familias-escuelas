@@ -165,20 +165,28 @@
           margin-bottom: 8px;
         }
 
+        /* Contenedor flexible que ubica las portadas en fila */
         .portadas-dobles {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: space-between;
-          gap: 16px;
-          margin: 24px 0;
+          display: flex;         /* Ubica los elementos uno al lado del otro */
+          gap: 16px;             /* Espacio entre las dos portadas */
+          margin: 24px 0;        /* Separación vertical respecto al resto del contenido */
         }
         
-        .portadas-dobles img {
-          width: calc(50% - 8px);
-          max-width: 100%;
-          height: auto;
-          border-radius: 4px;
+        /* Cada enlace ocupa el mismo espacio y oculta cualquier desborde de la imagen */
+        .portadas-dobles a {
+          flex: 1;               /* Ambos enlaces ocupan el mismo ancho */
+          overflow: hidden;      /* Oculta partes de la imagen que se salgan */
         }
+        
+        /* Estilo de cada imagen */
+        .portadas-dobles img {
+          width: 100%;           /* Ocupa todo el ancho del enlace */
+          height: 200px;         /* Altura fija para mantener uniformidad */
+          object-fit: cover;     /* Ajusta la imagen al espacio recortando si es necesario */
+          display: block;        /* Elimina espacios indeseados debajo de la imagen */
+          border-radius: 4px;    /* Bordes levemente redondeados */
+        }
+
     </style>
 </head>
 
@@ -217,8 +225,12 @@
             </p>
 
             <div class="portadas-dobles">
+              <a href="De familia en familia.webp" target="_blank">
                 <img src="De familia en familia.webp" alt="Portada de 'De familia en familia'">
+              </a>
+              <a href="Mi familia es de otro mundo.png" target="_blank">
                 <img src="Mi familia es de otro mundo.png" alt="Portada de 'Mi familia es de otro mundo'">
+              </a>
             </div>
 
         </section>
